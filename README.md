@@ -3,7 +3,7 @@ Intro to Docker
 
 This is an Intro to Docker slide deck built using [Reveal.js](https://github.com/hakimel/reveal.js).
 
-The contents of the the slides have been stol..., umm, -liberally borrowed- 
+The contents of the the slides have been stol..., umm, *liberally borrowed* 
 from [Docker Slideshare](http://www.slideshare.net/dotCloud) materials.
 
 Thanks to everyone at Docker, Inc for all the great work they are doing!
