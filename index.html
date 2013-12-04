@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Intro to Docker</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="Intro to Docker">
+		<meta name="author" content="Docker Inc, adapted by John Lewis">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/theme/docker.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -34,323 +34,297 @@
 
 		<div class="reveal">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
-					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-					</p>
-				</section>
+		<div class="slides">
+	
+<section>
+	<h1>Intro to Docker</h1>
+	<div>
+		<img src="docker-img/docker.png" style="width: 432px; height: 376px; max-height: none; max-width: none;"/>
+		<br/>
+	</div>
+	<div>
+		The contents of the the slides have been stol..., umm, <br/>
+		<i>liberally borrowed</i> from <a href="http://www.slideshare.net/dotCloud">Docker Slideshare</a> materials.<br/>
+		Thanks to everyone at Docker, Inc!
+	</div>
+</section>
+		
+<section>
+	<h2>Since it started in March 2013...</h2>
+	<ul>
+		<li class="fragment" data-fragment-index="0">&gt;200,000 pulls</li>
+		<li class="fragment" data-fragment-index="2">&gt;7,500 github stars</li>
+		<li class="fragment" data-fragment-index="3">&gt;200 significant contributors</li>
+		<li class="fragment" data-fragment-index="4">&gt;200 projects built on top of docker</li>
+		<ul>
+			<li class="fragment" data-fragment-index="4">UIs, mini-PaaS, Remote Desktop...</li>
+		</ul>
+		<li class="fragment" data-fragment-index="5">1000’s of Dockerized applications</li>
+		<ul>
+			<li class="fragment" data-fragment-index="5">Memcached, Redis, Node.js, Hadoop...</li>
+		</ul>
+		<li class="fragment" data-fragment-index="6">Integration in Jenkins, Travis, Chef, Puppet, Vagrant and OpenStack</li>
+		<li class="fragment" data-fragment-index="7">Meetups arranged around the world…</li>
+		<ul>
+			<li class="fragment" data-fragment-index="7">with organizations like Ebay, Cloudflare, Yandex, and Rackspace presenting on their use of Docker</li>
+		</ul>
+	</ul>
+</section>
 
-				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
+<section>
+	<h2>The Challenge</h2>
+	<p>
+		<img src="docker-img/the-challenge.png">
+	</p>
+</section>
 
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
+<section>
+	<h2>The Matrix from Hell</h2>
+	<p>
+		<img src="docker-img/the-matrix-from-hell.png">
+	</p>
+</section>
 
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>
-							Slides can be nested inside of other slides,
-							try pressing <a href="#" class="navigate-down">down</a>.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
+<section>
+	<h2>Cargo Transport Pre-1960</h2>
+	<p>
+		<img src="docker-img/cargo-transport-pre-1960.png">
+	</p>
+</section>
 
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? No problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slid.es" target="_blank">http://slid.es</a>.
-					</p>
-				</section>
+<section>
+	<h2>Also a Matrix from Hell</h2>
+	<p>
+		<img src="docker-img/also-a-matrix-from-hell.png">
+	</p>
+</section>
 
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
+<section>
+	<h2>Solution: Intermodal Shipping Container</h2>
+	<p>
+		<img src="docker-img/intermodal-shipping-container.png">
+	</p>
+</section>
 
-				<section>
-					<h2>Works in Mobile Safari</h2>
-					<p>
-						Try it out! You can swipe through the slides and pinch your way to the overview.
-					</p>
-				</section>
+<section>
+	<h2>Docker is a Container System for Code</h2>
+	<p>
+		<img src="docker-img/shipping-container-for-code.png">
+	</p>
+</section>
 
-				<section>
-					<h2>Marvelous Unordered List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
+<section>
+	<h2>Docker Eliminates the Matrix from Hell</h2>
+	<p>
+		<img src="docker-img/eliminates-matrix-from-hell.png">
+	</p>
+</section>
 
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
+<section>
+	<h2>Why Developers Care</h2>
+	<div style="text-align: left;">
+		Build once... (finally) run <i><font color="#073763">anywhere<b>*</b></font></i>
+		<ul>
+			<li class="fragment" data-fragment-index="0">A clean, safe, hygienic, portable runtime environment for your app.</li>
+			<li class="fragment" data-fragment-index="1">No worries about missing dependencies, packages and other pain points during subsequent deployments.</li>
+			<li class="fragment" data-fragment-index="2">Run each app in its own isolated container, so you can run various versions of libraries and other dependencies for each app without worrying.</li>
+			<li class="fragment" data-fragment-index="3">Automate testing, integration, packaging...anything you can script.</li>
+			<li class="fragment" data-fragment-index="4">Reduce/eliminate concerns about compatibility on different platforms, either your own or your customers.</li>
+			<li class="fragment" data-fragment-index="5">Cheap, zero-penalty containers to deploy services. A VM without the overhead of a VM. Instant replay and reset of image snapshots.</li>
+		</ul>
+	</div>
+	<div style="text-align: center; font-size: 24px; line-height: 1.1em; ">
+		<i><font color="#073763">* Where "anywhere" means an x86 server running a modern Linux kernel<br/>
+			(3.2+ generally or 2.6.32+ for RHEL 6.5+,&nbsp;Fedora, &amp; related)</font></i>
+	</div>
+</section>
 
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
+<section>
+	<h2>Why Administrators Care</h2>
+	<div style="text-align: left;">
+	Configure once... run anything
+	<ul>
+		<li class="fragment" data-fragment-index="0">Make the entire lifecycle more efficient, consistent, and repeatable</li>
+		<li class="fragment" data-fragment-index="1">Increase the quality of code produced by developers.</li>
+		<li class="fragment" data-fragment-index="2">Eliminate inconsistencies between development, test, production, and customer environments.</li>
+		<li class="fragment" data-fragment-index="3">Support segregation of duties.</li>
+		<li class="fragment" data-fragment-index="4">Significantly improves the speed and reliability of continuous deployment and continuous integration systems.</li>
+		<li class="fragment" data-fragment-index="5">Because the containers are so lightweight, address significant performance, costs, deployment, and portability issues normally associated with VMs.</li>
+	</ul>
+</section>
 
-						For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
+<section>
+	<h2>Why it Works: Separation of Concerns</h2>
+	<p>
+		<img src="docker-img/separation-of-concerns.png">
+	</p>
+</section>
 
-						```
-						<section data-markdown>
-						  ## Markdown support
+<section>
+	<h2>More Technical Details</h2>
+	<div style="position: absolute; left: 1%; top: 100px; width: 48%;" class="absolute-element">
+		<p><b>Why</b></p>
+		<ul style="text-align: left; line-height=1.1em;">
+			<li class="fragment" data-fragment-index="0">Run everywhere</li>
+			<ul style="font-size: 24px;" class="fragment" data-fragment-index="0">
+				<li>Regardless of kernel version</li>
+				<li>Regardless of host distro</li>
+				<li>Physical or virtual, cloud or not</li>
+				<li>Container and host architecture must match...</li>
+			</ul>
+			<li class="fragment" data-fragment-index="1">Run anything</li>
+			<ul style="font-size: 24px;" class="fragment" data-fragment-index="1">
+				<li>If it can run on the host, it can run in the container</li>
+				<li>If it can on a Linux kernel, it can run</li>
+			</ul>
+		</ul>
+	</div>
+	<div style="position: absolute; left: 52%; top: 100px; width: 48%;" class="absolute-element">
+		<p><b>What</b></p>
+		<ul style="text-align: left; line-height=1.1em;">
+			<li class="fragment" data-fragment-index="2">High level: a lightweight VM</li>
+			<ul style="font-size: 24px;" class="fragment" data-fragment-index="2">
+				<li>Own process space</li>
+				<li>Own network interface</li>
+				<li>Can run stuff as root</li>
+				<li>Can have its own /sbin/init (different from host)</li>
+				<li>&lt;&lt;machine container&gt;&gt;</li>
+			</ul>
+			<li class="fragment" data-fragment-index="3">Low level: chroot on steroids</li>
+			<ul style="font-size: 24px;" class="fragment" data-fragment-index="3">
+				<li>Can also <i>not </i>have its own /sbin/init</li>
+				<li>Container = isolated processes</li>
+				<li>Share kernel with host</li>
+				<liNo device emulation</li>
+				<li>&lt;&lt;application container&gt;&gt;</li>
+			</ul>
+		</ul>
+	</div>
+</section>
 
-						  For those of you who like that sort of thing.
-						  Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
+<section>
+	<h2>VMs vs Containers</h2>
+	<p>
+		<img src="docker-img/containers-vs-vms.png">
+	</p>
+</section>
 
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=cube#/transitions">Cube</a> -
-						<a href="?transition=page#/transitions">Page</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a> -
-						<a href="?transition=linear#/transitions">Linear</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?#/transitions">Default</a>
-					</p>
-				</section>
+<section>
+	<h2>Why are Docker Containers Lightweight?</h2>
+	<p>
+		<img src="docker-img/why-are-containers-lightwight.png">
+	</p>
+</section>
 
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						Reveal.js comes with a few themes built in: <br>
-						<a href="?#/themes">Default</a> -
-						<a href="?theme=sky#/themes">Sky</a> -
-						<a href="?theme=beige#/themes">Beige</a> -
-						<a href="?theme=simple#/themes">Simple</a> -
-						<a href="?theme=serif#/themes">Serif</a> -
-						<a href="?theme=night#/themes">Night</a> <br>
-						<a href="?theme=moon.css#/themes">Moon</a> -
-						<a href="?theme=simple.css#/themes">Simple</a> -
-						<a href="?theme=solarized.css#/themes">Solarized</a>
-					</p>
-					<p>
-						<small>
-							* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.
-						</small>
-					</p>
-				</section>
+<section>
+	<h2>What are the Basics of a Docker System?</h2>
+	<p>
+		<img src="docker-img/basics-of-docker-system.png">
+	</p>
+</section>
 
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the background.
-					</p>
-				</section>
+<section>
+	<h2>Changes and Updates</h2>
+	<p>
+		<img src="docker-img/changes-and-updates.png">
+	</p>
+</section>
 
-				<section data-state="customevent">
-					<h2>Custom Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
+<section>
+	<h1>Demo Time</h1>
+</section>
 
-				<section>
-					<section data-background="#007777">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#007777"</code> on a slide to change the full page background to the given color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Repeated Image Backgrounds</h2>
-						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-				</section>
+<section>
+	<h2>Ecosystem Support</h2>
+	<font style="font-size: 28px; line-height: 1.1em; ">
+		<ul>
+			<li class="fragment" data-fragment-index="0">Operating systems</li>
+			<ul>
+				<li class="fragment" data-fragment-index="0">Virtually any distribution with a 2.6.32+ kernel</li>
+				<li class="fragment" data-fragment-index="0">Red Hat/Docker collaboration to make work across RHEL 6.4+, Fedora, and other members of the family (2.6.32 +)</li>
+				<li class="fragment" data-fragment-index="0">CoreOS—Small core OS purpose built with Docker</li>
+			</ul>
+			<li class="fragment" data-fragment-index="1">OpenStack</li>
+			<ul>
+				<li class="fragment" data-fragment-index="1">Docker integration into NOVA (&amp; compatibility with Glance, Horizon, etc.) accepted for Havana release</li>
+			</ul>
+			<li class="fragment" data-fragment-index="2">Private PaaS</li>
+			<ul>
+				<li data-fragment-index="2" class="fragment">OpenShift, Solum (Rackspace, OpenStack), Other TBA</li>
+			</ul>
+			<li class="fragment" data-fragment-index="3">Public PaaS</li>
+			<ul>
+				<li data-fragment-index="3" class="fragment">Deis, Voxoz, Cocaine (Yandex), Baidu PaaS</li>
+			</ul>
+			<li data-fragment-index="4" class="fragment">Public IaaS</li>
+			<ul>
+				<li data-fragment-index="4" class="fragment">Native support in Rackspace, Digital Ocean,+++</li>
+				<li data-fragment-index="4" class="fragment">AMI (or equivalent) available for AWS &amp; other</li>
+			</ul>
+			<li data-fragment-index="5" class="fragment">DevOps Tools</li>
+			<ul>
+				<li data-fragment-index="5" class="fragment">Integrations with Chef, Puppet, Jenkins, Travis, Salt, Ansible +++</li>
+			</ul>
+			<li data-fragment-index="6" class="fragment">Orchestration tools</li>
+			<ul>
+				<li data-fragment-index="6" class="fragment">Mesos, Heat, ++</li>
+				<li data-fragment-index="6" class="fragment">Shipyard &amp; others purpose built for Docker</li>
+			</ul>
+			<li data-fragment-index="7" class="fragment">Applications</li>
+			<ul>
+				<li data-fragment-index="7" class="fragment">1000’s of Dockerized applications available at index.docker.io</li>
+			</ul>
+		</ul>
+	</font>
+</section>
 
-				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
-					<h2>Background Transitions</h2>
-					<p>
-						Pass reveal.js the <code>backgroundTransition: 'slide'</code> config argument to make backgrounds slide rather than fade.
-					</p>
-				</section>
+<section>
+	<h2>Docker Futures</h2>
+	<ul style="font-size: 34px; line-height: 1.1em; text-align: left; width:95%;">
+		<img style="float:right;" src="docker-img/docker-futures.png"/>
+		<li>Docker 0.7 (current release)</li>
+		<ul>
+			<li>Fedora compatibility</li>
+			<li>Reduce kernel dependencies</li>
+			<li>Device mapper</li>
+			<li>Container linking</li>
+		</ul>
+		<li>Docker 0.8 (Dec)</li>
+		<ul>
+			<li>Shrink &nbsp;and stabilize Core</li>
+			<li>Provide stable, pluggable API</li>
+			<li>RHEL compatibility</li>
+			<li>Nested containers</li>
+			<li>Beam: Introspection API based on Redis</li>
+			<li>Expand snapshot management features for data volumes</li>
+			<li>Will consider this “production ready”</li>
+		</ul>
+		<li>Docker 0.9 (Jan)</li>
+		<li>Docker 1.0 (Feb)</li>
+		<ul>
+			<li>Will offer support for this product</li>
+		</ul>
+	</ul>
+</section>
 
-				<section data-transition="linear" data-background="#8c4738" data-background-transition="slide">
-					<h2>Background Transition Override</h2>
-					<p>
-						You can override background transitions per slide by using <code>data-background-transition="slide"</code>.
-					</p>
-				</section>
+<section>
+	<h2>Want to Learn More?</h2>
+	<ul>
+		<li><a href="http://www.docker.io/">www.docker.io</a></li>
+		<ul>
+			<li>Documentation</li>
+			<li>Getting started (tutorial, installation, guide, etc)</li>
+			<li>Introductory <a href="http://www.docker.io/the-whole-story/">whitepaper</a></li>
+		</ul>
+		<li>Github: <a href="http://github.com/dotcloud/docker">dotcloud/docker</a></li>
+		<li>IRC: freenode #docker</li>
+		<li>Google Group: <a href="https://groups.google.com/forum/#!forum/docker-user">docker-user</a></li>
+		<li>Twitter: <a href="http://twitter.com/docker">@docker</a></li>
+		<li>Meetups: <a href="http://www.docker.io/meetups">www.docker.io/meetups</a></li>
+	</ul>
+</section>
 
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragmented Views</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<ol>
-							<li class="fragment"><code>any type</code></li>
-							<li class="fragment"><em>of view</em></li>
-							<li class="fragment"><strong>fragments</strong></li>
-						</ol>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's a few styles of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment roll-in">roll-in</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-green">highlight-green</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-current-blue">highlight-current-blue</p>
-					</section>
-				</section>
-
-				<section>
-					<h2>Spectacular image!</h2>
-					<a class="image" href="http://lab.hakim.se/meny/" target="_blank">
-						<img width="320" height="299" src="http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png" alt="Meny">
-					</a>
-				</section>
-
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>
-					<iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
-					<script>
-						document.getElementById('slideshare').attributeName = 'allowfullscreen';
-					</script>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press b or period on your keyboard to enter the 'paused' mode. This mode is helpful when you want to take distracting slides off the screen
-						during a presentation.
-					</p>
-				</section>
-
-				<section>
-					<h2>Stellar Links</h2>
-					<ul>
-						<li><a href="http://slid.es">Try the online editor</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js">Source code on GitHub</a></li>
-						<li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
-					</ul>
-				</section>
-
-				<section>
-					<h1>THE END</h1>
-					<h3>BY Hakim El Hattab / hakim.se</h3>
-				</section>
-
-			</div>
-
-		</div>
+</div>
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.min.js"></script>
@@ -360,6 +334,13 @@ function linkify( selector ) {
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
+				
+				width: 1366,
+				height: 768,
+				margin: 0.1,
+				minScale: 0.2,
+				maxScale: 1.2,
+	
 				controls: true,
 				progress: true,
 				history: true,

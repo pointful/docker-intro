@@ -40,6 +40,7 @@ module.exports = function(grunt) {
 		sass: {
 			main: {
 				files: {
+					'css/theme/docker.css': 'css/theme/source/docker.scss',
 					'css/theme/default.css': 'css/theme/source/default.scss',
 					'css/theme/beige.css': 'css/theme/source/beige.scss',
 					'css/theme/night.css': 'css/theme/source/night.scss',
