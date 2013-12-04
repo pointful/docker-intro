@@ -12,7 +12,7 @@ HTML5-based presentation to use when doing so. I hope others find this
 helpful, and I'm more than happy for the Docker community to find some
 use in this.
 
-[![ScreenShot](https://raw.github.com/pointful/docker-intro/screenshot.png)]
+[![ScreenShot](https://github.com/pointful/docker-intro/raw/master/screenshot.png)]
 
 ### [View Presentation Slides](http://pointful.github.io/docker-intro/)
 ### [Printable Slides - Chrome Only](http://pointful.github.io/docker-intro/?print-pdf#/)
